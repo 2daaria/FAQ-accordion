@@ -41,6 +41,7 @@ body {
 	margin-block: 130.5px;
 	margin-inline: 24px;
 	padding: 24px;
+	box-shadow: 0px 32px 56px 0px rgba(80, 0, 118, 0.1);
 }
 
 .faq__title {
