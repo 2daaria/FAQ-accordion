@@ -50,7 +50,6 @@ body {
 	font-size: 32px;
 	color: var(--purple-dark);
 	padding-left: calc(24px + 24px);
-	padding-block: 7px;
 }
 
 .faq__title::before {
@@ -61,6 +60,8 @@ body {
 	width: 24px;
 	height: 24px;
 	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .faq__accordion-btn {
@@ -120,7 +121,6 @@ body {
 	.faq__title {
 		font-size: 56px;
 		padding-left: calc(40px + 24px);
-		padding-block: 13px;
 		line-height: 66px;
 	}
 	
@@ -162,7 +162,6 @@ body {
 	.faq__title {
 		font-size: 56px;
 		padding-left: calc(40px + 24px);
-		padding-block: 13px;
 		line-height: 66px;
 	}
 	
