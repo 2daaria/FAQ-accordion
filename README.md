@@ -7,8 +7,8 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 ### Links
 
-- Solution URL: [GitHub](https://your-solution-url.com)
-- Live Site URL: [Live link](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/2daaria/FAQ-accordion)
+- Live Site URL: [Live link](https://2daaria.github.io/FAQ-accordion)
 
 
 ### The challenge
