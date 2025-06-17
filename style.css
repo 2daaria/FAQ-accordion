@@ -82,6 +82,10 @@ body {
 	margin-bottom: 24px;
 }
 
+.faq__accordion-btn:last-of-type {
+	margin-bottom: 0;
+}
+
 .faq__answer-text {
 	font-size: 14px;
 	line-height: var(--line-height-content);
