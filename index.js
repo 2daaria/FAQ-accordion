@@ -35,7 +35,7 @@ accordion.addEventListener('click', (event) => {
         // У всех кнопок меняем иконку на "плюс"
         buttons.forEach((btn) => {
             const img = btn.querySelector('img'); // ищем картинку внутри кнопки
-            if (img) img.src = '/assets/images/icon-plus.svg'; // ставим иконку "плюс"
+            if (img) img.src = 'assets/images/icon-plus.svg'; // ставим иконку "плюс"
         });
 
         // Переключаем видимость текущего ответа (если был открыт — закроется, и наоборот)
@@ -47,8 +47,8 @@ accordion.addEventListener('click', (event) => {
         // Меняем src картинки: если скрыто — "плюс", если показано — "минус"
         if (img) {
             img.src = currentAnswer.hidden
-                ? '/assets/images/icon-plus.svg'  // если ответ закрыт
-                : '/assets/images/icon-minus.svg'; // если открыт
+                ? 'assets/images/icon-plus.svg'  // если ответ закрыт
+                : 'assets/images/icon-minus.svg'; // если открыт
         }
     }
 });
