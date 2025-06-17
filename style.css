@@ -2,17 +2,17 @@
 
 @font-face {
 	font-family: "Work Sans Regular";
-	src: url('./assets/fonts/WorkSans-Regular.woff2');
+	src: url('/assets/fonts/WorkSans-Regular.woff2');
 }
 
 @font-face {
 	font-family: "Work Sans SemiBold";
-	src: url('./assets/fonts/WorkSans-SemiBold.woff2');
+	src: url('/assets/fonts/WorkSans-SemiBold.woff2');
 }
 
 @font-face {
 	font-family: "Work Sans Bold";
-	src: url('./assets/fonts/WorkSans-Bold.woff2');
+	src: url('/assets/fonts/WorkSans-Bold.woff2');
 }
 
 :root {
@@ -31,7 +31,7 @@ body {
 	color: var(--purple-medium);
 	/*line-height: var(--line-height-content);*/
 	background-color: var(--purple-light);
-	background-image: url("./assets/images/background-pattern-mobile.svg");
+	background-image: url("/assets/images/background-pattern-mobile.svg");
 	background-repeat: repeat-x;
 }
 
@@ -55,7 +55,7 @@ body {
 .faq__title::before {
 	position: absolute;
 	content: "";
-	background-image: url("./assets/images/icon-star.svg");
+	background-image: url("/assets/images/icon-star.svg");
 	background-size: cover;
 	width: 24px;
 	height: 24px;
@@ -100,7 +100,7 @@ body {
 
 @media (min-width: 540px) and (max-width: 768px) {
 	body {
-		background-image: url("./assets/images/background-pattern-desktop.svg");
+		background-image: url("/assets/images/background-pattern-desktop.svg");
 		background-size: auto 320px;
 		background-position: 50% 0;
 	}
@@ -140,7 +140,7 @@ body {
 
 @media (min-width: 769px) {
 	body {
-		background-image: url("./assets/images/background-pattern-desktop.svg");
+		background-image: url("/assets/images/background-pattern-desktop.svg");
 		background-repeat: repeat-x;
 		background-size: auto 320px;
 	}
@@ -175,7 +175,7 @@ body {
 	}
 	
 	.faq__accordion-btn:hover {
-		color: var(--purple-medium);
+		color: #ad28eb;
 	}
 	
 	.faq__accordion-btn:focus-visible {
