@@ -115,7 +115,6 @@ body {
 		margin-block: 167.5px;
 		margin-inline: 84px;
 		padding: 40px;
-		gap: 32px;
 	}
 	
 	.faq__title {
@@ -135,6 +134,12 @@ body {
 		font-size: 18px;
 		line-height: 21px;
 		gap: 0;
+	}
+	
+	.faq__accordion-btn:first-of-type {
+		padding-block: 0;
+		padding-top: 32px;
+		padding-bottom: 24px;
 	}
 	
 	.faq__answer-text {
@@ -156,7 +161,6 @@ body {
 		border-radius: 16px;
 		margin-block: 167.5px;
 		padding: 40px;
-		gap: 32px;
 	}
 	
 	.faq__title {
@@ -177,6 +181,12 @@ body {
 		line-height: 21px;
 		transition: 0.2s;
 		gap: 0;
+	}
+	
+	.faq__accordion-btn:first-of-type {
+		padding-block: 0;
+		padding-top: 32px;
+		padding-bottom: 24px;
 	}
 	
 	.faq__accordion-btn:hover {
